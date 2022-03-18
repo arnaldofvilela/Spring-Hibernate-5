@@ -9,7 +9,7 @@
 
     <!-- Define your beans here -->
 
-    <bean id="myCoach" class="com.luv2code.springdemo.TrackCoach">
+    <bean id="myCoach" class="com.luv2code.springdemo.BaseballCoach">
     </bean>
 
     <!--
@@ -22,6 +22,9 @@
         <property name="printedLoggerLevel" value="FINE"/>
     </bean>
 
+    <!-- Implementation of the bean of the Practice Activity-->
+    <bean id="myTest" class="com.luv2code.springdemo.TestCoach">
+    </bean>
 
 </beans>
 
